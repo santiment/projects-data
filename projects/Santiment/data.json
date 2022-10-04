@@ -1,0 +1,41 @@
+{
+    "general": {
+        "name": "Santiment",
+        "description": "    Santiment makes powerful OnChain, Social & Financial analysis accessible to anyone.\n    Interactive reports let you query crypto market data with only a few clicks, then see visualisations in seconds.\n    ",
+        "logo": "santiment.svg",
+        "ticker": "SAN",
+        "santiment_slug": "santiment"
+    },
+    "social": {
+        "twiter_link": "https://twitter.com/santimentfeed",
+        "discord_link": "https://santiment.net/discord",
+        "website_link": "https://santiment.net",
+        "youtube_link": "https://www.youtube.com/c/santimentnetwork",
+        "telegram_link": "https://t.me/santiment_network"
+    },
+    "development": {
+        "github_organizations": [
+            "santiment"
+        ],
+        "gitlab_organizations": []
+    },
+    "blockchain": {
+        "contracts": [
+            {
+                "main": true,
+                "deprecated": false,
+                "blockchain": "Ethereum",
+                "contract_type": "ERC20",
+                "address": "0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098",
+                "decimals": 18
+            },
+            {
+                "deprecated": true,
+                "blockchain": "Ethereum",
+                "contract_type": "ERC20",
+                "address": "0x1111111111111111111111111111111111111111",
+                "decimals": 18
+            }
+        ]
+    }
+}
